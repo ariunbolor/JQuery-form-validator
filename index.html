@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="main.css">
     <title>Form Validation</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="form-validator.js"></script>
   </head>
   <body>
     <form id="sign_up" action="#" method="post">
       <label for="email">Email</label>
-      <input type="text" name="email" id="email" />
+      <input type="text" name="email" />
       <label for="password">Password</label>
-      <input type="password" name="password" id="password" />
+      <input type="password" name="password" />
 
-      <button type="submit" id="submit">Sign Up</button>
+      <input type="submit" value="Sign Up" />
 
       <span id="errors"></span>
     </form><body>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="form-validator.js"></script>
   </body>
 </html>
